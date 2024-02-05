@@ -1,3 +1,17 @@
+//redireccion a repositorios
+const btn_js = document.querySelector("#btn-proyecto-js").addEventListener("click", () => {
+    window.open("https://github.com/anacristel/Portafolio");
+});
+
+const btn_react = document.querySelector("#btn-proyecto-react").addEventListener("click", () => {
+    window.open("");
+});
+
+const btn_flutter = document.querySelector("#btn-proyecto-flutter").addEventListener("click", () => {
+    window.open("");
+});
+
+
 const InputName = document.getElementById("name"),
     Email = document.getElementById("email"),
     Asunto = document.getElementById("asunto"),
@@ -8,12 +22,13 @@ const InputName = document.getElementById("name"),
     mensaje_val = document.querySelector("#textarea-val"),
     btn_enviar = document.querySelector("#btn-enviar");
 
-
+// expresión regular para validar email
 const isVAlidEmail = regEx_url => {
     const re = /[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}/;
     return re.test(String(regEx_url));
 }
 
+// validaciones del formulario de contacto
 btn_enviar.addEventListener("click", (e) => {
     e.preventDefault();
 
