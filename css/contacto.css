@@ -1,0 +1,83 @@
+.contacto-container {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 64px;
+    margin-top: 32px;
+    background: #d8e8ff;
+    display: flex;
+    gap: 16px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formulario-contacto label {
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #464646;
+}
+
+.formulario-contacto p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #464646;
+}
+
+.formulario-contacto input {
+    height: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway';
+}
+
+.formulario-contacto textarea {
+    height: 100px;
+    padding: 16px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1.5px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway';
+}
+
+.formulario-contacto button {
+    padding: 16px;
+    background-color: #2A7AE4;
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+
+.formulario-contacto button:hover{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer{
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+    color: #464646;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.sobre-mi_container {
+    background: #d8e8ff;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+    height: 383px;
+}
+
+.titulo-sobre-mi {
+    margin-top: 2rem;
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #464646;
+}
+
+.texto-sobre-mi {
+    width: 751px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #464646;
+}
+
+.firma-sobre-mi {
+    width: 140px;
+}

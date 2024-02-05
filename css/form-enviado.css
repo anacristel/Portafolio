@@ -1,0 +1,68 @@
+.body-datos-env {
+    background-color: #d8e8ff;
+    padding: 1rem 11rem;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-logo {
+    align-items: center;
+    width: 116px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-logo-img {
+    width: 24px;
+    color: #464646;
+}
+
+.head-logo-texto {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+}
+
+.head button {
+    width: 110px;
+    height: 30px;
+    color: #464646;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: 1px solid #b0d0fd;
+    border-radius: 15px;
+}
+
+.head button:hover {
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.div {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 2rem 7rem;
+    text-align: center;
+}
+
+.div h2 {
+    font-family: 'Raleway';
+    font-size: 34px;
+    color: #464646;
+}
+
+.div p {
+    font-family: 'Raleway';
+    font-size: 19px;
+    color: #464646;
+}

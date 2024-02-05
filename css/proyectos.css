@@ -1,0 +1,62 @@
+.proyectos-container {
+    padding-left: 82px;
+    padding-right: 82px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.h2-proyectos {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.div-proyecto {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.div-proyecto_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-proyecto {
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.div-proyecto_texto p {
+    color: #464646;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.boton-proyecto {
+    border: 1px solid #2A7AE4;
+    width: 140px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color:#2A7AE4;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.img-proyecto {
+    height: 400px;
+}
+
+.boton-proyecto:hover{
+    cursor: pointer;
+    background-color: #e8f1fd;
+}
