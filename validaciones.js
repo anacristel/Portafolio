@@ -1,46 +1,49 @@
-const InputName = document.getElementById("name");
-const Email = document.getElementById("email");
-const Asunto = document.getElementById("asunto");
-const Mensaje = document.getElementById("mensaje");
+const InputName = document.getElementById("name"),
+    Email = document.getElementById("email"),
+    Asunto = document.getElementById("asunto"),
+    Mensaje = document.getElementById("mensaje"),
+    name_val = document.querySelector("#name-val"),
+    email_val = document.querySelector("#email-val"),
+    asunto_val = document.querySelector("#asunto-val"),
+    mensaje_val = document.querySelector("#textarea-val"),
+    btn_enviar = document.querySelector("#btn-enviar");
 
 
-//Validación del campo input
-InputName.addEventListener("input", (e) => {
+const isVAlidEmail = regEx_url => {
+    const re = /[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}/;
+    return re.test(String(regEx_url));
+}
+
+btn_enviar.addEventListener("click", (e) => {
     e.preventDefault();
 
-    if (InputName.validity.valueMissing === true) {
-        InputName.setCustomValidity("Este campo no puede estar vacío");
+    if (InputName.value === '') {
+        name_val.classList.add("error");
+        name_val.innerText = 'Este campo no puede estar vacío.';
     } else {
-        InputName.setCustomValidity("");
+        name_val.innerText = '';
     }
-});
 
-//Validación del campo email
-Email.addEventListener("input", () => {
-
-    if (Email.validity.typeMismatch) {
-        Email.setCustomValidity("Ingresa un correo valido");
+    if (Email.value === '') {
+        email_val.classList.add("error");
+        email_val.innerText = 'Este campo no puede estar vacío.';
+    } else if (!isVAlidEmail(Email.value)) {
+        email_val.innerText = 'El email ingresado es incorrecto.'
     } else {
-        Email.setCustomValidity("");
+        email_val.innerText = '';
     }
-});
 
-//Validación del campo email
-Asunto.addEventListener("input", () => {
-
-    if (Asunto.validity.valueMissing == true) {
-        Asunto.setCustomValidity("Este campo no puede estar vacío");
+    if (Asunto.value === '') {
+        asunto_val.classList.add("error");
+        asunto_val.innerText = 'Este campo no puede estar vacío.';
     } else {
-        Asunto.setCustomValidity("");
+        asunto_val.innerText = '';
     }
-});
 
-//Validación del campo email
-Mensaje.addEventListener("input", () => {
-
-    if (Mensaje.validity.valueMissing == true) {
-        Mensaje.setCustomValidity("Este campo no puede estar vacío");
+    if (Mensaje.value === '') {
+        mensaje_val.classList.add("error");
+        mensaje_val.innerText = 'Este campo no puede estar vacío.';
     } else {
-        Mensaje.setCustomValidity("");
+        mensaje_val.innerText = '';
     }
 });

@@ -194,11 +194,15 @@
                     Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.
                 </p>
                 <input type="text" id="name" name="name" placeholder="Nombre" required maxlength="50">
+                <div id="name-val"></div>
                 <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <div id="email-val"></div>
                 <input type="text" id="asunto" name="subject" placeholder="Asunto" required data-tipo="asunto">
+                <div id="asunto-val"></div>
                 <textarea id="mensaje" name="message" cols="50" rows="5" placeholder="Mensaje" required
                     maxlength="300"></textarea>
-                <button type="submit">Enviar mensaje</button>
+                    <div id="textarea-val"></div>
+                <button id="btn-enviar" type="submit">Enviar mensaje</button>
 
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/form-enviado.html?">
