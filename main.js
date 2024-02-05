@@ -1,18 +1,18 @@
 //redireccion a repositorios
 const btn_js = document.querySelector("#btn-proyecto-js").addEventListener("click", () => {
-    window.open("https://github.com/anacristel/Portafolio");
+    window.open("https://github.com/anacristel/E-commerce");
 });
 
 const btn_react = document.querySelector("#btn-proyecto-react").addEventListener("click", () => {
-    window.open("");
+    window.open("https://github.com/anacristel/Org-proyecto-alura");
 });
 
 const btn_flutter = document.querySelector("#btn-proyecto-flutter").addEventListener("click", () => {
-    window.open("");
+    window.open("https://github.com/anacristel/Inventario");
 });
 
 
-const InputName = document.getElementById("name"),
+/* const InputName = document.getElementById("name"),
     Email = document.getElementById("email"),
     Asunto = document.getElementById("asunto"),
     Mensaje = document.getElementById("mensaje"),
@@ -29,7 +29,7 @@ const isVAlidEmail = regEx_url => {
 }
 
 // validaciones del formulario de contacto
-btn_enviar.addEventListener("click", (e) => {
+btn_enviar.addEventListener("input", (e) => {
     e.preventDefault();
 
     if (InputName.value === '') {
@@ -61,4 +61,4 @@ btn_enviar.addEventListener("click", (e) => {
     } else {
         mensaje_val.innerText = '';
     }
-});
+}); */
