@@ -1,14 +1,13 @@
 .proyectos-container {
     padding-left: 82px;
     padding-right: 82px;
-    
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 48px;
+    align-items: center;
 }
 
 .h2-proyectos {
-    text-align: center;
     font-family: 'Raleway';
     font-size: 32px;
     font-weight: 700;
@@ -16,9 +15,10 @@
 }
 
 .div-proyecto {
+    width: 930px;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 .div-proyecto_texto {
@@ -46,7 +46,7 @@
     width: 140px;
     padding: 10px;
     background-color: #FFFFFF;
-    color:#2A7AE4;
+    color: #2A7AE4;
     font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
@@ -56,7 +56,7 @@
     height: 400px;
 }
 
-.boton-proyecto:hover{
+.boton-proyecto:hover {
     cursor: pointer;
     background-color: #e8f1fd;
 }
