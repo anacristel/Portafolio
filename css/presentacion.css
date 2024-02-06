@@ -36,7 +36,7 @@
     font-size: 1rem;
     font-family: 'Raleway';
     color: #464646;
-    margin-right: 4rem;
+    padding-right: 2rem;
 }
 
 .imagen-presentacion {
@@ -44,6 +44,32 @@
     height: 300px;
 }
 
-.links-presentacion:hover{
-font-weight: bold;
+.links-presentacion:hover {
+    font-weight: bold;
+}
+
+@media screen and (max-width:600px) {
+    .presentacion-container {
+        padding: 0 1rem;
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .presentacion-divisor {
+        width: auto;
+    }
+
+    .imagen-presentacion {
+        width: 98px;
+        height: 98px;
+    }
+
+    .titulo-presentacion {
+        font-size: 22px;
+    }
+
+    .texto-presentacion {
+        font-size: 14px;
+
+    }
 }

@@ -33,7 +33,7 @@ body {
     display: inline-block;
     font-size: 16;
     font-family: 'Raleway';
-    font-weight: Medium; 
+    font-weight: Medium;
     margin-left: 1rem;
 }
 
@@ -42,6 +42,18 @@ a {
     color: #464646;
 }
 
-.head-links:hover{
+.head-links:hover {
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+    .head-links:not(#contacto){
+        display: none;
+    }
 }
