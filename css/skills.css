@@ -1,9 +1,6 @@
 .skills-container {
     background: #F6F6F6;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    margin-top: .5rem;
-    margin-bottom: 88px;
+    padding: 1rem 7rem;
 }
 
 .titulo-skills {
@@ -17,7 +14,7 @@
 .lista-skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 16px;
     justify-content: space-around;
 }
 
@@ -34,4 +31,23 @@
     font-size: 16px;
     color: #464646;
     font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .skills-container {
+        padding: 1rem;
+    }
+
+    .titulo-skills {
+        font-size: 22px;
+    }
+
+    .lista-skills {
+        gap: 32px;
+    }
+
+    .items-skills {
+        width: 110px;
+        height: 90px;
+    }
 }

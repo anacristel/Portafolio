@@ -2,8 +2,7 @@
     background: #d8e8ff;
     padding-left: 7rem;
     padding-right: 7rem;
-    padding-top: 2rem;
-    height: 383px;
+    padding-top: 1rem;
 }
 
 .titulo-sobre-mi {
@@ -15,7 +14,7 @@
 }
 
 .texto-sobre-mi {
-    width: 751px;
+    width: 750px;
     text-align: justify;
     font-size: 16px;
     font-family: 'Raleway';
@@ -23,5 +22,20 @@
 }
 
 .firma-sobre-mi {
-    width: 140px;
+    width: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .sobre-mi_container {
+        padding: 1rem;
+    }
+
+    .titulo-sobre-mi {
+        font-size: 22px;
+    }
+
+    .texto-sobre-mi {
+        font-size: 14px;
+        width: auto;
+    }
 }

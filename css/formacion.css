@@ -19,11 +19,9 @@
 
 .items-formacion {
     list-style: none;
-    gap: 16px;
     display: flex;
     flex-direction: column;
     line-height: 1px;
-    gap: 0;
 }
 
 .div-formacion {
@@ -47,4 +45,31 @@
     font-size: 16px;
     font-weight: 500;
     color: #464646;
+}
+
+@media screen and (max-width: 600px) {
+    .formacion-container {
+        padding: 32px;
+    }
+
+    .titulo-formacion {
+        font-size: 22px;
+    }
+
+    .lista-formacion {
+        flex-wrap: wrap;
+    }
+
+    .div-formacion {
+        width: 290px;
+        height: 170px;
+    }
+
+    .texto-formacion {
+        font-size: 16px;
+    }
+
+    .fecha-formacion {
+        font-size: 14px;
+    }
 }

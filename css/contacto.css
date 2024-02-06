@@ -89,3 +89,38 @@ footer {
     color: #464646;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .contacto-container {
+        padding: 2rem;
+    }
+
+    .imagen-contacto {
+        display: none;
+    }
+
+    .formulario-contacto {
+        gap: 16px;
+    }
+
+    .formulario-contacto label {
+        font-size: 22px;
+    }
+
+    .formulario-contacto p {
+        font-size: 16px;
+    }
+
+    .formulario-contacto input {
+        width: auto;
+        height: 50px;
+    }
+
+    .formulario-contacto textarea {
+        width: auto;
+    }
+
+    .formulario-contacto button {
+        font-size: 14px;
+    }
+}

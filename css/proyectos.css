@@ -60,3 +60,47 @@
     cursor: pointer;
     background-color: #e8f1fd;
 }
+
+@media screen and (max-width: 600px) {
+    .proyectos-container {
+        padding: 2rem;
+        gap: 16px;
+    }
+
+    .h2-proyectos {
+        font-size: 22px;
+    }
+
+    .div-proyecto {
+        width: 300px;
+        display: block;
+        gap: 16px;
+    }
+
+    .titulo-proyecto {
+        font-size: 16px;
+    }
+
+    .div-proyecto_texto {
+        line-height: 1;
+    }
+
+    .div-proyecto_texto p {
+        font-size: 14px;
+    }
+
+    .boton-proyecto {
+        width: 116px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    #btn-proyecto-react {
+        margin-bottom: 16px;
+    }
+
+    .img-proyecto {
+        width: 300px;
+        height: 140px;
+    }
+}

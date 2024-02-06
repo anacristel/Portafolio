@@ -50,10 +50,9 @@ a {
     .head {
         padding-left: 1rem;
         padding-right: 1rem;
-        
     }
 
-    .head-links:not(#contacto){
+    .head-links:not(#link) {
         display: none;
     }
 }

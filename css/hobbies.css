@@ -1,9 +1,6 @@
 .hobbies-container {
     background: #F6F6F6;
-    padding-left: 7rem;
-    padding-right: 7rem;
-    margin-top: .5rem;
-    margin-bottom: 88px;
+    padding: 1rem 7rem;
 }
 
 .titulo-hobbies {
@@ -17,7 +14,6 @@
 .lista-hobbies {
     display: flex;
     justify-content: space-between;
-    
 }
 
 .items-hobbies {
@@ -33,4 +29,24 @@
     font-size: 16px;
     color: #464646;
     font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .hobbies-container {
+        padding: 1rem;
+    }
+
+    .titulo-hobbies {
+        font-size: 22px;
+    }
+
+    .lista-hobbies {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .items-hobbies {
+        width: 110px;
+        height: 90px;
+    }
 }
