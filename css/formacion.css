@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 600px) {
     .formacion-container {
-        padding: 32px;
+        padding: 1rem;
     }
 
     .titulo-formacion {

@@ -1,6 +1,6 @@
 .hobbies-container {
     background: #F6F6F6;
-    padding: 1rem 7rem;
+    padding: 3rem 7rem;
 }
 
 .titulo-hobbies {
@@ -17,7 +17,6 @@
 }
 
 .items-hobbies {
-    list-style: none;
     background: #FFFFFF;
     padding: 16px;
     width: 150px;
@@ -33,7 +32,7 @@
 
 @media screen and (max-width: 600px) {
     .hobbies-container {
-        padding: 1rem;
+        padding: 2.4rem 1rem;
     }
 
     .titulo-hobbies {
@@ -43,6 +42,7 @@
     .lista-hobbies {
         flex-wrap: wrap;
         gap: 32px;
+        justify-content: space-around;
     }
 
     .items-hobbies {

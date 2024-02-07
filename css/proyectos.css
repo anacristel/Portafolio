@@ -63,8 +63,8 @@
 
 @media screen and (max-width: 600px) {
     .proyectos-container {
-        padding: 2rem;
-        gap: 16px;
+        padding: 1rem;
+        gap: 32px;
     }
 
     .h2-proyectos {
@@ -74,15 +74,16 @@
     .div-proyecto {
         width: 300px;
         display: block;
-        gap: 16px;
+        gap: 0;
+    }
+
+    #div-org {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .titulo-proyecto {
         font-size: 16px;
-    }
-
-    .div-proyecto_texto {
-        line-height: 1;
     }
 
     .div-proyecto_texto p {
