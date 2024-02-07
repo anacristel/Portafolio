@@ -18,7 +18,7 @@
     justify-content: space-around;
 }
 
-.head-logo-img {
+.head-logo-icon {
     width: 24px;
     color: #464646;
 }
@@ -65,4 +65,38 @@
     font-family: 'Raleway';
     font-size: 19px;
     color: #464646;
+}
+
+@media screen and (max-width: 600px) {
+    .body-datos-env {
+        padding: 1rem;
+    }
+
+    .head button {
+        width: 90px;
+        font-size: 14px;
+    }
+
+    .icono-email {
+        width: 90px;
+        margin-top: 3rem;
+    }
+
+    .div {
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+
+    .div img {
+        width: 50px;
+    }
+
+    .div h2 {
+        font-size: 22px;
+    }
+
+    .div p {
+        font-size: 16px;
+        text-align: justify;
+    }
 }
